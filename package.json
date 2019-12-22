@@ -1,8 +1,7 @@
 {
-  "name": "react-cli",
-  "version": "0.1.0",
-  "description": "POC template for Create React App.",
-  "main": "index.js",
+  "name": "react-cli-poc",
+  "version": "0.2.6",
+  "description": "POC react cli.",
   "repository": {
     "type": "git",
     "url": "https://github.com/Feridum/react-cli.git"
@@ -13,6 +12,9 @@
   },
   "bugs": {
     "url": "https://github.com/Feridum/react-cli/issues"
+  },
+  "bin": {
+    "react-cli-poc": "index.js"
   },
   "dependencies": {
     "commander": "^4.0.1",
